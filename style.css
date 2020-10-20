@@ -130,7 +130,8 @@ main {
 }
 
 #bio h2,
-#skills h2 {
+#skills h2,
+#indications h2 {
     font: 600 clamp(2rem, 3vw, 4rem)/1 'Roboto Slab', serif;
     margin-top: 3rem;
     text-align: center;
@@ -206,4 +207,20 @@ li.strong {
     font: 600 clamp(1.6rem, 2vw, 2.5rem)/1.2 'Roboto Slab', serif;
 }
 
+.indications {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.indications a{
+    background: #081e41;
+    color: white;
+    font: 400 clamp(1.6rem, 2vw, 2.5rem)/1.2 'Roboto Slab', serif;
+    margin-top: 1.5rem;
+    padding: 1rem 1.5rem;
+    border: none;
+    border-radius: 1.5rem;
+    text-decoration: none;
+}
 
