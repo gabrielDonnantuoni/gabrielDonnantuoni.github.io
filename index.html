@@ -1,64 +1,109 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gabriel Donnantuoni Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+
+    <title>Donnantuoni's Portfolio</title>
 </head>
 <body>
-    <h3>
-        Índice
-    </h3>
-    <ol>
-        <li><a href="#foto">Foto</a></li>
-        <li><a href="#bio">BIO</a></li>
-        <li><a href="#skills">Habilidades</a></li>
-        <li><a href="#indicacoes">Indicações</a></li>
-    </ol>
-    <img id="foto" src="images/perfil.jpg" alt="Foto do Gabriel Donnantuoni">
-    <h2 id="bio">
-        Gabriel Donnantuoni Lima
-    </h2>
-    <p>
-        Estudante de Desenvolvimento Web | Trybe<br>
-        Idade: 23 anos. Cidade: Fortaleza/CE<br>
-        <em>"Apaixonado por tecnologia desde sempre, comecei a me desenvolver profissionalmente na área de Engenharia Civil, muito por influência cultural,no entanto <br>por falta de compatibilidade com o curso, tomei uma das decisões mais acertadas da minha vida ao começar carreira em desenvolvimento de sofware.<br>
-        Estou no primeiro mês de curso da Trybe e estou bastante contente com a experiência até o momento e animado com o que está por vir.<br>
-        Além disso, sou uma pessoa muito interessada em consciência alimentar e corporal(Saúde em primeiro lugar sempre!) e adoro uma boa praia."</em>
-        
-    </p>
-    <h3 id="skills">
-        Habilidades:
-    </h3>
-    <p >
-        <strong>Hardskills</strong>
-    </p>
-    <ul>
-        <li><strong>HTML</strong></li>
-        <li>CSS</li>
-        <li>JavaScript</li>
-        <li>NodeJS</li>
-        <li>Python</li>
-    </ul>
-    <p>
-        <strong>Softskills</strong>
-    </p>
-    <ul>
-        <li><strong>Espírito Crítico</strong></li>
-        <li>Curiosidade</li>
-        <li>Resiliência</li>
-        <li>Comprometimento</li>
-        <li>Proatividade</li>
-    </ul>
-    <br>
-    <h3 id="indicacoes">
-        Indicações de conteúdo para Software Development
-    </h3>
-    <ul>
-        <li><a href="https://www.w3schools.com/" target="_blank">W3 Schools</a></li>
-        <li><a href="https://exercism.io/" target="_blank">Exercism</a></li>
-        <li><a href="https://github.com/braziljs/eloquente-javascript/tree/master/chapters" target="_blank">Repositório JS no GitHub</a></li>
-    </ul>
 
+    <div class="container">
+        <header>
+            <div class="img-wrapper">
+                <img src="images/bg.jpg" alt="Screens and keyboard: Web development">
+            </div>
+            <div class="img-reference">
+                <span>
+                    Photo by <a href="https://unsplash.com/@ffstop?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Fotis Fotopoulos</a> on <a href="https://unsplash.com/s/photos/web-development?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a>
+                </span>
+            </div>
+            <div class="banner">
+                <h1>Full-stack Web Developer Student | Trybe</h1>
+                <p>Gabriel Donnantuoni Lima</p>
+                <br>
+                <a href="#bio">Learn more</a>
+            </div>
+        </header>
+
+        <main>
+
+            <div id="bio">
+
+                <h2>Short Bibliography</h2>
+
+                <div class="bio-content">
+
+                    <div class="bio-picture">
+                        <img src="images/perfil.jpg" alt="Profile picture">
+                    </div>
+    
+                    <div class="bio-text">                    
+                        <p>
+                            I am 23 years old, was born in Fortaleza/CE and have been living here since then. <br> <br>
+                            I am finishing a graduation in Civil Engineering at UFC, but the experiences and reflexions passed through the Covid-19 pandemic triggered my filling about what I was doing and I decided to persue my real dream of working with software development. I found at Trybe an oportunity to speed up my career at web development and <em>I am looking forward into this.</em>  
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div id="skills">
+
+                <h2>Skills</h2>
+
+                <div class="skills-content">
+
+                    <div class="hardskills">
+    
+                        <p >Hardskills</p>
+
+                        <ul>
+                            <li class="strong">HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                        </ul>
+    
+                    </div>
+    
+                    <div class="softskills">
+    
+                        <p>Softskills</p>
+                        <ul>
+                            <li class="strong">Emotional Intelligence</li>
+                            <li>Commitment</li>
+                            <li>Resilience</li>
+                            <li>Critical Thinking</li>
+                        </ul>
+
+                </div>
+
+                </div>
+
+            </div>
+
+            <div id="indicacoes">
+
+                <h2>Hint for studying Web development</h2>
+
+                <ul>
+                    <li><a href="https://www.w3schools.com/" target="_blank">W3 Schools</a></li>
+                    <li><a href="https://exercism.io/" target="_blank">Exercism</a></li>
+                    <li><a href="https://github.com/braziljs/eloquente-javascript/tree/master/chapters" target="_blank">Repositório JS no GitHub</a></li>
+                </ul>
+
+            </div>
+
+        </main>
+    </div>
+    
 </body>
 </html>
